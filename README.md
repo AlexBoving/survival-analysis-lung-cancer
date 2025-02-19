@@ -66,7 +66,7 @@ The dataset consists of:
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/lung-cancer-survival.git
+git clone https://github.com/AlexBoving/survival-analysis-lung-cancer.git
 ```
 
 ## Usage
