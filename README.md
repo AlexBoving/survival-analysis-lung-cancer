@@ -38,6 +38,7 @@ The analysis leverages several survival models, including:
 
 - **Survival Random Forest (RSF)**
 - **Survival XGBoost (sXGB)**
+- **Survival Support Vector Machine (SSVM)**
 - **DAFT (Deep Attentive Feature-based Tabular) model**: Interweaving 3D CT scan images with tabular meta-data for enhanced predictive performance.
 
 These models are implemented using the `scikit-survival` and `scikit-learn` libraries, which provide an efficient and easy-to-use framework for survival analysis.
@@ -53,11 +54,11 @@ The dataset consists of:
 
 ```
 ├── data/
-│   ├── ct_scans/            # Folder containing 3D CT scan images
-│   ├── meta_data.csv        # CSV file with patient meta-data
+│   ├── ct_scans/
+│   ├── meta_data.csv
 ├── notebooks/
-│   ├── daft_model.ipynb     # DAFT model training and evaluation
-│   ├── survival_models.ipynb # Survival XGBoost and Random Forest model training and evaluation
+│   ├── daft_model.ipynb
+│   ├── survival_models.ipynb
 ├── README.md
 ```
 
