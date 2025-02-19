@@ -10,7 +10,7 @@ The objective of this project is to develop a machine learning pipeline to predi
 
 Each patient record in the dataset consists of:
 - A set of covariates $x \in \mathbb{R}^d$, representing patient-specific features.
-- The event time $t > 0$, which marks when an event (e.g., death, disease progression) occurred.
+- The event time $t > 0$, which marks when an event (e.g., death) occurred.
 - The censoring time $c > 0$, which represents when the observation was censored (i.e., the event was not observed within the study period).
 
 Since an event occurrence and censoring are mutually exclusive, an event indicator $\delta \in \{0,1\}$ is defined:
