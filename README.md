@@ -58,7 +58,6 @@ The dataset consists of:
 ├── notebooks/
 │   ├── daft_model.ipynb     # DAFT model training and evaluation
 │   ├── survival_models.ipynb # Survival XGBoost and Random Forest model training and evaluation
-├── requirements.txt
 ├── README.md
 ```
 
@@ -68,16 +67,13 @@ Clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/yourusername/lung-cancer-survival.git
-cd lung-cancer-survival
-pip install -r requirements.txt
 ```
 
 ## Usage
 
 1. **Data Preparation:** Ensure that CT scans are placed in the `data/ct_scans/` folder and meta-data is correctly formatted in `data/meta_data.csv`.
 2. **Exploratory Data Analysis:** Run `notebooks/eda.ipynb` to explore and visualize the dataset.
-3. **Feature Extraction:** Use `notebooks/feature_extraction.ipynb` to extract relevant features from the CT scans.
-4. **Model Training & Evaluation:** Train and evaluate survival models with `notebooks/daft_model.ipynb` and `notebooks/survival_models.ipynb`.
+3. **Model Training & Evaluation:** Train and evaluate survival models with `notebooks/daft_model.ipynb` and `notebooks/survival_models.ipynb`.
 
 ## Results
 
