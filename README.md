@@ -78,7 +78,7 @@ git clone https://github.com/AlexBoving/survival-analysis-lung-cancer.git
 
 ## Results
 
-The models are evaluated based on the concordance index (C-index) and integrated Brier score (IBS) to assess their predictive accuracy.
+The models are evaluated based on the concordance index (C-index).
 
 ## Acknowledgements
 
