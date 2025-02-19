@@ -1,4 +1,4 @@
-PatientID,Mstage,Nstage,Tstage,age,Histology_Adenocarcinoma,Histology_LargeCell,Histology_Nos,Histology_SquamousCellCarcinoma,Compactness_2,Maximum_Diameter,Sphericity,Surface_Volume_Ratio,Voxel_Volume,SurvivalTime,Event
+PatientID,Mstage,Nstage,Tstage,age,Histology_Adenocarcinoma,Histology_LargeCell,Histology_Nos,Histology_SquamousCellCarcinoma,Compactness_2,Maximum_Diameter,Sphericity,Surface_Volume_Area,Voxel_Volume,SurvivalTime,Event
 202,0,0,2,66.0,1,0,0,0,0.274891584789629,48.55924216871593,0.650210255286885,0.2752277631406584,19786.0,1378,0
 371,0,2,4,64.5722,0,1,0,0,0.1882100053733114,75.70336848516055,0.5730786586392099,0.240726823947402,43168.0,379,1
 246,0,3,2,66.0452,0,0,0,1,0.2657398953505683,70.43436661176133,0.6429130676926181,0.2007659881238132,52655.0,573,1
