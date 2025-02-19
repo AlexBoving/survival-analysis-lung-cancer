@@ -55,6 +55,7 @@ The dataset consists of:
 ```
 ├── data/
 │   ├── ct_scans/
+│   ├── eda.csv
 │   ├── meta_data.csv
 ├── notebooks/
 │   ├── daft_model.ipynb
