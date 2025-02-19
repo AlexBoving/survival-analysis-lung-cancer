@@ -8,8 +8,6 @@ This project was part of the Bio AI hackathon from Entrepreneur First 2024 in De
 
 The objective of this project is to develop a machine learning pipeline to predict the survival outcomes of lung cancer patients. By combining 3D CT imaging data with patient meta-data, we aim to improve the accuracy of survival prediction models.
 
-# Survival Analysis Dataset Explanation
-
 ## Overview
 Each patient record in the dataset consists of:
 - A set of covariates \( x \in \mathbb{R}^d \), representing patient-specific features.
